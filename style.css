@@ -1,0 +1,88 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: rgb(255, 241, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Fraunces, sans-serif;
+}
+main {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 9px 0 0 9px;
+}
+
+.conteiner-texto {
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+    padding: 2em;
+}
+
+.conteiner-texto h4 {
+    color: #969595d5;
+    font-family: Montserrat, sans-serif;
+    font-size: .9em;
+    font-weight: 100;
+}
+
+.conteiner-texto p {
+    font-family: Montserrat, sans-serif;
+    color: #969595d5;
+    line-height: 1.5;
+
+}
+
+.conteiner-preço {
+   display: flex; 
+   gap: 1.5em;
+   align-items: center;
+}
+
+
+.conteiner-preço h3 {
+    font-size: 2em;
+    color: #1c613f;
+}
+
+.conteiner-preço p {
+    text-decoration: line-through;
+}
+.conteiner-texto a {
+    background-color: #1c613f;
+    padding: .9em;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: .8em;
+    transition: .4s;
+    box-shadow: 0px 4px 12px 0 #969595d5;
+}
+
+.conteiner-texto a:hover {
+    transform: scale(.9);
+}
